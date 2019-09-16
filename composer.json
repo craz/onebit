@@ -1,0 +1,22 @@
+{
+    "name": "craz/test-onebit",
+    "description": "test job for 1Bit",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "pavlov alex",
+            "email": "cccrazzz@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "OneBit\\": "local/php_interface/include/classes/OneBit"
+        }
+    },
+    "require": {
+        "react/http": "dev-master",
+        "react/event-loop": "1.0",
+        "bitrix-expert/bbc": "dev-master"
+    }
+}
